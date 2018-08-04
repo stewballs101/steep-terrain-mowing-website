@@ -1,23 +1,17 @@
 
-
-
-
-
 When you start working:
 
-git pull
+click the little sync icon down the bottom
 npm run develop
 
 
 When you've finished working:
-git 
-npm run build
+close saved (top left...)
+click the fork on the right bar
+type a message and click the tick
+click the little sync icon down the bottom
+
+
+If you want to deploy changes to the internet:
 firebase deploy
-
-
-test git 
-
-
-brad test contribute
-
-
+npm run build
