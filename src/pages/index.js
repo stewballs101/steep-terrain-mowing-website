@@ -18,7 +18,7 @@ const IndexPage = () => (
 <p className="italic antialiased font-semibold text-center text-lg">Outsouce your risk to Austere</p><br></br>
 </div>
 <div className="mx-auto md:w-1/2 p-4">
-<img className="shadow-lg" src={image1} alt="Logo"/>
+{/* <img className="shadow-lg" src={image1} alt="Logo"/> */}
 </div>
 </div>
 );

@@ -5,7 +5,7 @@ const Footer = () => (
 
     <div className="flex flex-col md:flex-row bg-grey-darkest">
       <p className=" flex flex-col md:flex-row text-grey-light text-center italic leading-loose mx-auto font-light font-sans py-2 px-2">
-        Risk management services in remote, wilderness and austere environments
+        Seal Team 6 Delta Force SAS Commando Slashing Services
       </p>
 
      <div className="flex md:flex-row items-center mx-auto">
