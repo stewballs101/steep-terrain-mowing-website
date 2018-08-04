@@ -15,7 +15,7 @@ const Header = () => {
     <nav>
      <div className="flex flex-row justify-around">
 
-      <div className="w-1/2 flex align-bottom md:p-2 bg-green-lighter justify-around">
+      <div className="w-1/2 flex self-center md:p-2 bg-green-lighter justify-around">
          <div className="p-4">
 
 
@@ -35,7 +35,7 @@ const Header = () => {
 
         <div
           id="nav"
-          className="hidden md:flex md:items-top w-full md:w-auto"
+          className="items-baseline hidden md:flex md:items-top w-full md:w-auto"
         >
           <div className="text-lg">
             <Link
@@ -73,7 +73,7 @@ const Header = () => {
         </div>
 
         </div>
-        <div className="w-1/2 flex mx-auto md:p-2 justify-around bg-red-lighter">
+        <div className="w-1/2 flex mx-auto justify-around self-center bg-red-lighter">
          <img src={Logo} alt="Logo"/>
         </div>
     </div>
