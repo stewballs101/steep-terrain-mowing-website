@@ -12,16 +12,12 @@ const Header = () => {
   };
 
   return (
-    <nav>
-      
-     <div className="flex flex-row justify-around">
-     <div className="w-1/2 flex mx-auto justify-around self-center p-2">
-         <img src={Logo} alt="Logo"/>
+    <nav className="bg-white">
+      <div className="flex flex-wrap items-centre justify-around max-w-2xl mx-auto p-2 md:pt-1">
+        <div className="w-1/3 flex mx-auto">
+         <img className="mx-auto" src={Logo} alt="Logo"/>
+
         </div>
-
-      <div className="w-1/2 flex self-center justify-start md:p-2">
-         <div className="p-4">
-
 
         <button
           className="block md:hidden border border-white flex items-center px-3 py-2 rounded text-grey-darkest"
@@ -39,49 +35,50 @@ const Header = () => {
 
         <div
           id="nav"
-          className="items-baseline hidden md:flex md:items-top w-full md:w-auto"
+          className="w-2/3 hidden md:flex md:items-center mx-auto w-full md:w-auto"
         >
           <div className="text-lg">
             <Link
               to="/"
-              className="block text-xl font-bold mt-4 md:inline-block md:mt-0 mr-6 no-underline text-black"
+              className="block mt-4 font-bold text-2xl md:inline-block md:mt-0 mr-6 no-underline text-orange"
             >
               Home
             </Link>
 
             <Link
               to="/services"
-              className="block text-xl font-bold md:inline-block mt-4 md:mt-0 mr-6 no-underline text-black"
+              className="block mt-4 font-bold text-2xl md:inline-block md:mt-0 mr-6 no-underline text-orange"
             >
               Services
             </Link>
 
             <Link
               to="/products"
-              className="block text-xl font-bold md:inline-block mt-4 md:mt-0 mr-6 no-underline text-black"
+              className="block mt-4 font-bold text-2xl md:inline-block md:mt-0 mr-6 no-underline text-orange"
             >
               Products
             </Link>
 
             <Link
+              to="/gallery"
+              className="block mt-4 font-bold text-2xl md:inline-block md:mt-0 mr-6 no-underline text-orange"
+            >
+              Gallery
+            </Link>
+
+            <Link
               to="/contact"
-              className="block text-xl font-bold md:inline-block mt-4 md:mt-0 mr-6 no-underline text-black"
+              className="block mt-4 font-bold text-2xl md:inline-block md:mt-0 mr-6 no-underline text-orange"
             >
               Contact
             </Link>
 
           </div>
-
         </div>
-
-        </div>
-
-        </div>
-
-    </div>
+      </div>
     </nav>
-    
   );
 };
 
 export default Header;
+
