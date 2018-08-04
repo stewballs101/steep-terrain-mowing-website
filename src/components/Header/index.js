@@ -13,9 +13,13 @@ const Header = () => {
 
   return (
     <nav>
+      
      <div className="flex flex-row justify-around">
+     <div className="w-1/2 flex mx-auto justify-around self-center p-2">
+         <img src={Logo} alt="Logo"/>
+        </div>
 
-      <div className="w-1/2 flex self-center md:p-2 bg-green-lighter justify-around">
+      <div className="w-1/2 flex self-center justify-start md:p-2">
          <div className="p-4">
 
 
@@ -73,9 +77,7 @@ const Header = () => {
         </div>
 
         </div>
-        <div className="w-1/2 flex mx-auto justify-around self-center bg-red-lighter">
-         <img src={Logo} alt="Logo"/>
-        </div>
+
     </div>
     </nav>
     

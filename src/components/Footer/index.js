@@ -5,7 +5,7 @@ const Footer = () => (
 
     <div className="flex flex-col md:flex-row bg-grey-darkest">
       <p className=" flex flex-col md:flex-row text-grey-light text-center italic leading-loose mx-auto font-light font-sans py-2 px-2">
-        Steep Terreain business slogan
+        Write a business slogan here if you want to
       </p>
 
      <div className="flex md:flex-row items-center mx-auto">

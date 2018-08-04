@@ -3,6 +3,7 @@ import PropTypes from "prop-types";
 import Helmet from "react-helmet";
 import favicon from '../../src/images/favicon.png'
 
+
 import Header from "../components/Header";
 import Footer from "../components/Footer";
 import "./index.css";
@@ -19,11 +20,15 @@ const TemplateWrapper = ({ children }) => (
         { rel: 'shortcut icon', type: 'image/png', href: `${favicon}` }
       ]}
     />
+    <div>
+
     <Header />
     <div className="flex flex-col flex-1 md:justify-top max-w-2xl mx-auto px-4 py-4 md:p-4 w-full">
+   
       {children()}
     </div>
     <Footer />
+    </div>
   </div>
 );
 
