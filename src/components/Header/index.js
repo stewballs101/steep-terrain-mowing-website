@@ -14,9 +14,9 @@ const Header = () => {
 
   return (
     <nav className="bg-white">
-      <div className="flex items-centre max-w-2xl mx-auto p-2 md:pt-1">
-        <div className="w-1/6 flex mx-auto">
-         <img className="mx-auto" src={Logo} alt="Logo"/>
+      <div className="flex flex-wrap items-center max-w-2xl mx-auto md:pt-1">
+        <div className="w-1/6 mx-auto">
+         <img src={Logo} alt="Logo"/>
         </div>
 
         <button
@@ -37,7 +37,7 @@ const Header = () => {
           id="nav"
           className="w-3/4 hidden md:flex md:items-center mx-auto w-full md:w-auto"
         >
-          <div className="text-2xl font-light">
+          <div className="text-2xl font-semi-bold ">
             <Link
               to="/"
               className="block mt-4 md:inline-block md:mt-0 mr-6 no-underline text-orange"
