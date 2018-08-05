@@ -3,7 +3,7 @@ import Link from "gatsby-link";
 
 const Footer = () => (
 
-    <div className="flex flex-col md:flex-row bg-green">
+  <div className="flex flex-col md:flex-row bg-green md:fixed md:pin-b w-full">
       <p className=" flex flex-col md:flex-row text-grey-light text-center italic leading-loose mx-auto font-light font-sans py-2 px-2">
         Write a business slogan here if you want to
       </p>
