@@ -1,20 +1,19 @@
 {
-  "name": "austere",
-  "description": "Austere Risk Management",
+  "name": "steep-terrain",
+  "description": "Steep Terrain Mowing website",
   "version": "1.1.0",
-  "author": "Brad Stewart <brad@austere.global>",
+  "author": "Glen Stewart",
   "dependencies": {
     "gatsby": "^1.9.241",
-    "gatsby-image": "^1.0.55",
     "gatsby-link": "^1.6.39",
     "gatsby-plugin-react-helmet": "^2.0.8",
     "react-helmet": "^5.2.0"
   },
   "keywords": [
-    "risk",
-    "wilderness",
-    "safety",
-    "medical"
+    "mowing",
+    "slashing",
+    "terrain",
+    "incline"
   ],
   "license": "MIT",
   "scripts": {

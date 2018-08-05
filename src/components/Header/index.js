@@ -1,6 +1,7 @@
 import React from "react";
 import Link from "gatsby-link";
 import Logo from "../../images/logo.png"
+import AsLogo from "../../images/as-logo.jpg"
 
 const Header = () => {
   const handleClick = function(e) {
@@ -13,10 +14,9 @@ const Header = () => {
 
   return (
     <nav className="bg-white">
-      <div className="flex flex-wrap items-centre justify-around max-w-2xl mx-auto p-2 md:pt-1">
-        <div className="w-1/3 flex mx-auto">
+      <div className="flex items-centre max-w-2xl mx-auto p-2 md:pt-1">
+        <div className="w-1/6 flex mx-auto">
          <img className="mx-auto" src={Logo} alt="Logo"/>
-
         </div>
 
         <button
@@ -35,45 +35,49 @@ const Header = () => {
 
         <div
           id="nav"
-          className="w-2/3 hidden md:flex md:items-center mx-auto w-full md:w-auto"
+          className="w-3/4 hidden md:flex md:items-center mx-auto w-full md:w-auto"
         >
-          <div className="text-lg">
+          <div className="text-2xl font-light">
             <Link
               to="/"
-              className="block mt-4 font-bold text-2xl md:inline-block md:mt-0 mr-6 no-underline text-orange"
+              className="block mt-4 md:inline-block md:mt-0 mr-6 no-underline text-orange"
             >
               Home
             </Link>
 
             <Link
               to="/services"
-              className="block mt-4 font-bold text-2xl md:inline-block md:mt-0 mr-6 no-underline text-orange"
+              className="block mt-4 md:inline-block md:mt-0 mr-6 no-underline text-orange"
             >
               Services
             </Link>
 
             <Link
               to="/products"
-              className="block mt-4 font-bold text-2xl md:inline-block md:mt-0 mr-6 no-underline text-orange"
+              className="block mt-4 md:inline-block md:mt-0 mr-6 no-underline text-orange"
             >
               Products
             </Link>
 
             <Link
               to="/gallery"
-              className="block mt-4 font-bold text-2xl md:inline-block md:mt-0 mr-6 no-underline text-orange"
+              className="block mt-4 md:inline-block md:mt-0 mr-6 no-underline text-orange"
             >
               Gallery
             </Link>
 
             <Link
               to="/contact"
-              className="block mt-4 font-bold text-2xl md:inline-block md:mt-0 mr-6 no-underline text-orange"
+              className="block mt-4 md:inline-block md:mt-0 mr-6 no-underline text-orange"
             >
               Contact
             </Link>
 
           </div>
+
+        </div>
+        <div className="w-1/6 mx-auto content-around p-8">
+         <img src={AsLogo} alt="Logo"/>
         </div>
       </div>
     </nav>
